@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    --cor0: #C5EBD6;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue'
+}
+
+* {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+body {
+background-color: var(--cor0);
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
+
+main p {
+    text-indent: 30px;
+    line-height: 2em; /* distancia entre as linhas*/
+    font-size: 1em;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #208f52;
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #3CDB83;
+}
+
+main strong {
+    padding: 1px 3px ;
+    color: #cf2626;
+}
+
+header { 
+    font-family: var(--fonte-destaque);
+    color: white;
+    background-image: linear-gradient(to bottom, #3CDB83, #154C2E);
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
+    min-height: 170px;
+    padding: 10px 0px 30px 0px;  
+    width: 100%;
+}
+
+nav > a{
+    color: #99ebbe;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+    transition-duration: 0.6s;
+    
+}
+
+nav >a:hover {
+    background-color: #3CDB83;
+    color:#1A5C37 ;
+}
+
+nav {
+    background-color: #164D2F;
+    font-weight: 100;
+    width: 100%;
+    padding-bottom: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.24) ;
+ }
+
+
+.h1corpo {
+    font-family: 'android';
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.178);
+    color: #1A5C37;
+    font-size: 2em;
+    width: 100%;
+}
+
+h2 {
+    background-image: linear-gradient(to left, #84e1ac00, #84e1ac85);
+    font-family: 'android';
+    font-size: 25px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.171);
+    text-indent: 15px;
+    color: #1A5C37;
+    width: 100%;
+}
+
+.ptexto {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-size: 18px;
+    text-indent: 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+
+ article {
+     background-color: white;
+     padding: 1px 25px 15px 25px;
+     margin: auto;
+     margin-bottom: 30px;
+     max-width: 750px;
+     min-width: 280px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+     border-radius: 0px 0px 10px 10px;
+ }
+ /* max- and min- width para responsividade, padrão min 320 max fica a criterio*/
+
+ .bugdroid {
+     text-align: center;
+ }
+
+ .video1 {
+     height: 360px;
+     text-align: center;
+     background-color: #1A5C38;
+     padding-top: 47px;
+     padding-bottom: 42px;
+     width: 100%;
+ }
+
+ .ultima {
+     background-color: white;
+     width: 100%;
+ }
+
+ .verdeclaro {
+     background-color: #C5EBD6;
+     border-radius: 15px 15px 15px 15px;
+     padding-bottom: 5px;
+     width: 100%;
+     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+ }
+
+ .ultimotitulo {
+     background-color: #2FA866;
+     color: white;
+     text-indent: 15px;
+     padding: 5px 0px 5px 0px;
+     border-radius: 15px 15px 0px 0px;
+     width: 100%;
+ }
+
+ .ptextofinal {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+ }
+
+ ul {
+     list-style-type: '\2714\00A0\00A0';
+     font-family: 'Bebas Neue';
+     font-weight: 100;
+     font-size: 18px;
+     columns: 2;
+ }
+
+ footer {
+     color: white;
+     background-color: #1A5C38;
+     padding: 1px;
+     font-family: 'Bebas Neue';
+     font-weight: 100;
+     font-size: 18px;
+     text-align: center;
+     width: 100%;
+     box-shadow: 0px 0px 10px #12422863;
+ }
+
+ #nome {
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+     border-radius: 3px;
+     transition-duration: 0.6s;
+ }
+
+ #nome:hover {
+     background-color: #3CDB83;
+     color: #1A5C37;
+ }
+
+ a{
+     text-decoration: none;
+     color: #208f52;;
+ }
+
+ span {
+     list-style-type: '\1F517\00A0';
+ }
